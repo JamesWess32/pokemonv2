@@ -1,0 +1,178 @@
+body {
+    font-family: 'Barlow Condensed';
+    background-color: white;
+    margin: 0;
+ 
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-weight: bolder;
+    font-style: italic;
+    
+
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-family: 'Muli';
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 0;
+
+}
+
+.container-fluid {
+    padding: 0% 15%;
+}
+
+#Sub-heading {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 21px 0px;
+}
+#Sub-heading2 {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 21px 0px;
+
+}
+.fa-solid {
+    margin: 0;
+}
+
+
+/* Name section -----------------------------------------*/
+
+#Pokemon_name_section {
+    text-align: center;
+    position: relative;
+    
+}
+
+.Pokemon_name {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+
+    display: inline-block;
+    padding: 10px;
+    font-style: italic;
+    border-radius: 10px;
+    margin-top: 0px;
+    top: 15rem;
+
+}
+
+@media (max-width: 991px) {
+    #Presentation {
+        height: 20rem;
+    }
+
+
+}
+
+/* Stats section -----------------------------------------*/
+#Pokemon_stats_section {
+    position: relative;
+    padding-top: 2rem;
+    height: 15rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    text-align: center;
+}
+
+
+.Pokemon_picture {
+    height: 15rem;
+    width: 15rem;
+
+}
+
+.Pokemon_picture_container {
+    float: left;
+    width: 50%;
+}
+
+.Pokemon_stats_container {
+    float: left;
+    width: 25%;
+
+    padding-top: 2rem;
+}
+
+.Pokemon_evolution_container {
+    float: right;
+    width: 25%;
+    padding-top: 5rem;
+
+}
+
+/* Damage section -----------------------------------------*/
+#Pokemon_damage_section {
+    position: relative;
+    padding-top: 3rem;
+    margin: 0;
+    text-align: center;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    height: 15rem;
+
+
+}
+
+.Pokemon_to_container {
+    float: right;
+    width: 33%;
+    padding-top: 5rem;
+
+}
+
+.Pokemon_from_container {
+    float: right;
+    width: 33%;
+    padding-top: 5rem;
+
+}
+
+.Pokemon_half_container {
+    float: right;
+    width: 33%;
+    padding-top: 5rem;
+
+}
+
+/* abilities section -----------------------------------------*/
+#Pokemon_abilities_section {
+    position: relative;
+    padding-top: 3rem;
+    margin: 0;
+    text-align: center;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    height: 15rem;
+
+
+}
+
+.Pokemon_a1 {
+    float: right;
+    width: 50%;
+    padding-top: 1rem;
+
+}
+.Pokemon_a2 {
+    float: right;
+    width: 50%;
+    padding-top: 1rem;
+
+}
