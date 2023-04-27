@@ -8,14 +8,20 @@ Options = ["charmander", "bulbasaur", "beedrill", "squirtle"]
 # Options
 # 1. charmander
 # 2. bulbasaur
-# 3. beedrill
+# 3. beedrill0
 # 4. squirtle
 print("################################################")
 print("Pokemons")
 for i in range(len(Options)):
     print(f"{i+1}.{Options[i]}")
 print("################################################")
-answer=(int(input("Select your pokemon: ")))
+while True:
+    try:
+        answer=(int(input("Select your pokemon: ")))
+        break
+    except:
+        print("Please enter a number between 1-4")
+
 selected_pokemon = Pokemon(Options[answer-1])
 
 # replace with the name of the selected pokemon
