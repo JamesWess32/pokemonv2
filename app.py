@@ -18,11 +18,16 @@ print("################################################")
 while True:
     try:
         answer=(int(input("Select your pokemon: ")))
+        selected_pokemon = Pokemon(Options[answer - 1])
         break
-    except:
+    except IndexError:
         print("Please enter a number between 1-4")
+    except ValueError:
+        print("Please enter a valid number")
 
-selected_pokemon = Pokemon(Options[answer-1])
+
+
+
 
 # replace with the name of the selected pokemon
 
